@@ -283,9 +283,10 @@
                 <section>
                     <section>
                         <div id="left">
-                            <font size=5>
-                                <p><b>My work:</b> Parametric study of design to maximize $^{99}$Mo </br></p>
+                            <font size=3>
+                                <b>My work:</b> Parametric study of design to maximize $^{99}$Mo </br>
                                 <b>Result:</b> Design patented, startup created, <a href="https://www.nrc.gov/info-finder/nonpower/nw-medical-isotopes.html">construction permit granted</a>
+                                <b>Data Science Skills:</b> Reading/Parsing outputs, identifying relations, matlab scripting</br>
                             </font>
                         <img height="300" src="./images/patent/patenttitle.png">
                         </div>
@@ -305,12 +306,22 @@
                             <img src="./images/rover/XSAr.jpg" height="300">
                             <img src="./images/rover/ArAge.jpg" height="300">
                         </div>
-                        <div id="bottom">
+                    </section>
+                    <section>
+                        <h3>Key Takeaways from the Rover Source</h3>
+                        <div>
+                            <font size="6">
+                                <b>My work:</b> Perform Parametric studies to maximize n flux, minimize shield material</br>
+                                <b>Result:</b> Passive neutron source designed with weight and flux constraints met </br>
+                                <b>Data Science Skills:</b> Parametric evaluation, Python scripting, optimization </br>
+                            </font>
+                        </div>
+                        <footer align="left">
                         <font size="2">
                             <p align="right"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ggr.12170" style="color:black;"><i>Instrumentation Development for In Situ $^{40}$Ar/$^{39}$Ar Geochronology</i>, Morgan, L., Munk, M., et al; Geostandards and Geoanalytical Research 2017</a></p>
                             <p align="right"><a href="http://munkm.github.io/papers/munk_mc15.pdf" style="color:black;"><i>Design and feasibility study of a compact neutron source for extraterrestrial geochronology applications</i>, Munk, M., Morgan, L., et. al; ANS M&C 2015</a></p>
                         </font>
-                        </div>
+                            </footer>
                     </section>
                 </section>
                 <section data-transition="convex">
@@ -351,15 +362,6 @@
                         </font></footer>
                     </section>
                     <section>
-                        <h3>PB-FHR Central Reflector</h3>
-                        <img height="500" src="./images/PBFHR/CentralReflector_Simple.svg">
-                        <img height="500" src="./images/PBFHR/CentralReflector_Simple_Cutout.svg">
-                        <img height="500" src="./images/PBFHR/RC_90cut_Neutronics.svg">
-                    </section>
-                    <section>
-                        <h3>Tools for Simulation?</h3>
-                    </section>
-                    <section>
                         <h3>Central Reflector Lifetime Estimates</h3>
                         <font size="6">
                         <p class="fragment">Use MCNP to get the fluence data for the reflector</p>
@@ -372,42 +374,8 @@
                         </font>
                     </section>
                     <section>
-                        <h3>Implementing Radiation-Induced Swelling</h3>
-                        <div id="left">
-                        \[
-                        \begin{align}
-                        \varepsilon_{th} &= \alpha (T-T_{ref}) \\
-                        \varepsilon_{\Phi} &= \varepsilon_{th} \\
-                        T &= \frac{\varepsilon_{\Phi}}{\alpha} + T_{ref}
-                        \end{align}
-                        \]
-                        </div>
-                        <div id="right">
-                            <small>
-                            \[
-                            \begin{align}
-                            T_{ref} &= \mbox{ unstrained reference temperature }\\
-                            T &= \mbox{ temperature inducing strain }\\
-                            \varepsilon_{th} &= \mbox{ thermal strain }\\
-                            \varepsilon_{\Phi} &= \mbox{ strain induced from neutron fluence }\\
-                            \alpha &= \mbox{ coefficient of thermal expansion }
-                            \end{align}
-                            \]
-                            </small>
-                        </div>
-                    </section>
-                    <section>
                         <h3>Central Reflector Lifetime Estimates</h3>
                         <img height="500" src="./images/PBFHR/StressMises.gif">
-                    </section>
-                    <section>
-                        <h3>PB-FHR Central Reflector</h3>
-                        <ul>
-                        <img height="500" src="./images/PBFHR/CentralReflector_Simple_Cutout.svg">
-                        <img height="500" src="./images/PBFHR/CentralReflector_solid_detail.svg">
-                        <img height="500" src="./images/PBFHR/CentralReflector_explode_detail.svg">
-                        <img height="150" src="./images/PBFHR/CentralReflector_single_detail.svg">
-                        </ul>
                     </section>
                     <section>
                         <h3>Key Takeaways from the Lifetime Estimate</h3>
@@ -415,8 +383,8 @@
                             <font size="6">
                                 <b>My work:</b> Created a novel tool to couple neutronics/strucutral mechanics</br>
                                 <b>Result:</b> Lifetime estimated, reflector redesigned, Kairos power startup </br>
-                            <b>Future Idea:</b> Perform lifetime evaluations on core components in emerging reactor designs based on coupled physics</br>
-                            <b>Data Science Application:</b> Use optimization techniques to converge on core component design that maximizes lifetime
+                                <b>Data Science Skills:</b> Data Cleaning, Automation, Software Development </br>
+                                <b>Data Science Potential:</b> Use optimization techniques to converge on core component design that maximizes lifetime
                             </font>
                         </div>
                         <footer align="left">
@@ -431,7 +399,7 @@
                         <img class="fragment" style="position:absolute; left:9.66%" height="600" src="./images/general/System1_longb.svg">
                     </section>
                     <section>
-                        <h3>Why Variance Reduction?</h3>
+                        <h3>Deep Dive: Why Variance Reduction?</h3>
                         <div id="left">
                             <font size="6">
                             <ul class="fragment">
@@ -454,7 +422,7 @@
                         </div>
                     </section>
                     <section>
-                        <h3>Hybrid Methods</h3>
+                        <h3>Deep Dive: Hybrid Methods</h3>
                         <img src="./images/omega/bestofboth.svg" height="400">
                         <ul>
                             <small>
@@ -472,56 +440,6 @@
                     <section>
                         <h4>An Adjoint Problem</h4>
                         <img src="./images/omega/adjoint_problem.svg" height="600">
-                    </section>
-                    <section>
-                        <small>
-                        <p>The forward neutron transport equation:</p>
-                        \[
-                        \begin{multline}
-                        \hat\Omega \cdot \nabla \psi
-                                (\vec {r} ,E,\:\hat\Omega)+\Sigma _{ t }
-                                (\vec{r},E)\psi (\vec { r } ,E,\:\hat\Omega) = \\
-                                \int _{ 4\pi  } \int _{ 0 }^{ \infty  } \Sigma _{ s }(E'\rightarrow E,
-                                \hat\Omega'\rightarrow\hat\Omega)\psi (\vec { r } ,E',\: \hat\Omega')dE'
-                                \:d\hat\Omega' + q_{e}(\vec { r } ,E, \:\hat\Omega).
-                        \end{multline}
-                        \]
-                        <p>The adjoint neutron transport equation:</p>
-                        \[
-                        \begin{multline}
-                        \hat\Omega \cdot \nabla \color{teal}{\psi^{\dagger}}
-                                (\vec {r} ,E,\:\hat\Omega)+\Sigma _{ t }
-                                (\vec{r},E)\color{teal}{\psi^{\dagger}}  (\vec { r } ,E,\:\hat\Omega)
-                               = \\
-                               \int _{ 4\pi  } \int _{ 0 }^{ \infty  } \Sigma _{ s }(\color{violet}{E\rightarrow E'},
-                               \color{purple}{\hat\Omega\rightarrow\hat\Omega'})\color{teal}{\psi^{\dagger}}  (\vec { r } ,E',\:
-                               \hat\Omega')dE' \:d\hat\Omega' + \color{teal}{q_{e}^\dagger}(\vec { r } ,E,
-                                \:\hat\Omega).
-                        \end{multline}
-                        \]
-                        <p>The adjoint solution can be used to make an importance map for a desired outcome.</p>
-                        <p>An exact adjoint solution can be used to obtain a zero variance Monte Carlo solution.</p>
-                        </small>
-                    </section>
-                    <section>
-                        <h3>Importance and the Adjoint</h3>
-                        <small>
-                            <p align="left">Notation:</p>
-                            $\langle ab \rangle = \int a(P)b(P) dP$
-                            <p align="left">Detector response</p>
-                            $
-                            \begin{align}
-                            R &= \langle \sigma_d \psi \rangle \\
-                              &= \langle q^{\dagger} \psi \rangle \\
-                              &= \langle q \psi^{\dagger} \rangle \\
-                              \end{align}
-                            $
-                            <p align="left">Point source</p>
-                            $q ( \vec{r}, E, \hat{\Omega}) = \delta(\vec{r}-\vec{r_0})\delta(\vec{E}-\vec{E_0})\delta(\vec{\hat{\Omega}}-\vec{\hat{\Omega}_0})$
-                            <font color="purple"><p align="left">Response = adjoint flux</p>
-                            $R = \psi^{\dagger} (r_0, E_0, \Omega_0)$
-                            </font>
-                        </small>
                     </section>
                     <section>
                         <h2>A Simple Labyrinth</h2>
@@ -564,19 +482,6 @@
                             <p align="center">Adjoint Flux</p>
                         </div>
                     </section>
-                    <section>
-                        <img height="525" src="./images/omega/Hybrid_Codes.svg">
-                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid1.svg">
-                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid2.svg">
-                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid3.svg">
-                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid4.svg">
-                        <div id="bottom" align="left">
-                        <font size="2">
-                             <p>MCNP, X. Monte Carlo Team, MCNP–A General Purpose Monte Carlo N-Particle Transport Code, Version 5. LA-UR-03-1987, Los Alamos National Laboratory, April 2003.</p>
-                             <p>Evans, Thomas M., et al. "Denovo: A new three-dimensional parallel discrete ordinates code in SCALE." Nuclear technology 171.2 (2010): 171-200.</p>
-                             <p>Mosher, Scott W., et al. "ADVANTG—an automated variance reduction parameter generator." ORNL/TM-2013/416, Oak Ridge National Laboratory (2013).</p>
-                        </font></div>
-                    </section>
 				    <section data-background-image="./images/omega/maze2MadjG00.png" style="background: rgba(255, 255, 255, 0.80);">
                         <h3>Angle Isn't Captured</h3>
                     </section>
@@ -612,30 +517,6 @@
                         </div>
                     </section>
                     <section>
-                        <h2>Steel Beam in Concrete</h2>
-                        <div>
-                            <img height="500" src="./images/omega/prob1geom.png">
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Steel Beam in Concrete</h2>
-                        <div>
-                            <img height="500" src="./images/omega/RE_prob1.png">
-                        </div>
-                    </section>
-                    <section>
-                            <img height="200" src="./images/omega/Prob1_FOM.png">
-                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Above:</b> Figure of Merit results for CADIS and CADIS-$\Omega$ for various tally regions of interest</font></p>
-                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Below:</b> Timing results for CADIS and CADIS-$\Omega$</font></p>
-                            <img height="250" src="./images/omega/Prob1_time.png">
-                    </section>
-                    <section data-transition="none">
-                            <img height="200" src="./images/omega/Prob1_FOM_highlight.png">
-                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Above:</b> Figure of Merit results for CADIS and CADIS-$\Omega$ for various tally regions of interest</font></p>
-                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Below:</b> Timing results for CADIS and CADIS-$\Omega$</font></p>
-                            <img height="250" src="./images/omega/Prob1_time_highlight.png">
-                    </section>
-                    <section>
                         <h4>Flux Anisotropies</h4>
                         <div>
                             <img height="500" src="./images/omega/prob1M2G26.png">
@@ -652,11 +533,12 @@
                     </section>
                     <section>
                         <h3>Key Takeaways from the $\Omega$-methods</h3>
-                        <div>
-                            <font size="6">
+                        <div align="left">
+                            <font size="5" align="left">
                                 <b>My work:</b> Created and implemented a novel method to capture angle in ADVANTG, developed novel methodology to analyze anisotropy in problems</br>
-                                <b>Result:</b> New insight into shield designs, robust characterization of method
-                                <b>Data Science Skills:</b> Python, build systems (make, cmake), version control (git), data formatting (hdf5), data cleaning, data visualization (matplotlib, yt, seaborn), algorithms 
+                                <b>Result:</b> New insight into shield designs, robust characterization of method </br>
+                                <b>Data Science Skills:</b> Python, build systems (make, cmake), version control (git), data formatting (hdf5), data cleaning, data visualization (matplotlib, yt, seaborn), algorithms </br>
+                                <b>Data Science Potential:</b> Use anisotropy metrrics to characterize beyond the $\Omega$-methods, build out suite of analysis tools
                             </font>
                         </div>
                         <footer align="left">
@@ -665,19 +547,6 @@
                             <p>Munk, Madicken, et al. "FW/CADIS-$\Omega $: An angle-informed hybrid method for deep-penetration radiation transport." arXiv preprint arXiv:1612.00793 (2016).</p>
                             </font>
                         </footer>
-                    </section>
-                    <section>
-                        <h3>Future Work</h3>
-                        <div id="right">
-                            <font size="5" align="left">
-                            <p><b>Idea: </b> Use anisotropy metrics to characterize beyond $\Omega$-methods, build out suite of novel analysis tools for nuclear engineering with PyNE+yt</p>
-                            <p><b>Deliverable: </b> Robust scheme to recommend method based on problem type, open-source package to calculate anisotropy metrics</p>
-                            <p><b>Data Science Influence: </b> Use methods from other domains (halo finding (astro)), cleaning and filtering methods </p>
-                            </font>
-                        </div>
-                        <div id="left">
-                            <img src="./images/omega/futurestats.png" height="275">
-                        </div>
                     </section>
                 </section>
                 <section data-transition="convex">
@@ -818,21 +687,17 @@
                         <img height="120" class="fragment" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png">
                         </div>
                     </section>
-                    <section data-background-iframe="https://veekaybee.github.io/2018/02/19/creating-a-twitter-art-bot/" style="background: rgba(180, 180, 180, 0.80);">
+                    <section>
                         <h3>Data Science for Fun</h3>
-                        </br>
-                        <a href="https://veekaybee.github.io/2018/02/19/creating-a-twitter-art-bot/">Creating A Twitter Art Bot</a>
-                        </br>
-                        <a href="https://wizardzines.com/">Computing 'Zines by Julia Evans</a>
-                        </br>
-                        <a href="http://physics.codes/">Effective Computation in Physics</a>
-                        </br>
-                        <a href="http://avl.ncsa.illinois.edu/">Advanced Visualization Lab (for inspiration)</a>
-                        </br>
-                        <a href="http://roundup.fishtownanalytics.com/">Data Science Roundup</a>
-                        </br>
-                        <a href="https://munkm.github.io/2019-09-25-NCSA">"Best Practices in Software Engineering for Scientific Computing"</a>, talk given to Blue Waters graduate fellows, Madicken Munk
-                    </section>
+                        <div>
+                        <div align="left">
+                        <li><a href="https://veekaybee.github.io/2018/02/19/creating-a-twitter-art-bot/">Creating A Twitter Art Bot</a></li>
+                        <li><a href="https://wizardzines.com/">Computing 'Zines by Julia Evans</a></li>
+                        <li><a href="http://physics.codes/">Effective Computation in Physics</a></li>
+                        <li><a href="http://avl.ncsa.illinois.edu/">Advanced Visualization Lab (for inspiration)</a></li>
+                        <li><a href="http://roundup.fishtownanalytics.com/">Data Science Roundup</a></li>
+                        <li><a href="https://munkm.github.io/2019-09-25-NCSA">"Best Practices in Software Engineering for Scientific Computing"</a>, talk given to Blue Waters graduate fellows, Madicken Munk</li>
+                                </div></section>
                 </section>
                 <section>
                     <section>
@@ -918,6 +783,40 @@
                 <section>
                     <section>Backup Slides: NE Work</section>
                     <section>
+                        <h3>Implementing Radiation-Induced Swelling</h3>
+                        <div id="left">
+                        \[
+                        \begin{align}
+                        \varepsilon_{th} &= \alpha (T-T_{ref}) \\
+                        \varepsilon_{\Phi} &= \varepsilon_{th} \\
+                        T &= \frac{\varepsilon_{\Phi}}{\alpha} + T_{ref}
+                        \end{align}
+                        \]
+                        </div>
+                        <div id="right">
+                            <small>
+                            \[
+                            \begin{align}
+                            T_{ref} &= \mbox{ unstrained reference temperature }\\
+                            T &= \mbox{ temperature inducing strain }\\
+                            \varepsilon_{th} &= \mbox{ thermal strain }\\
+                            \varepsilon_{\Phi} &= \mbox{ strain induced from neutron fluence }\\
+                            \alpha &= \mbox{ coefficient of thermal expansion }
+                            \end{align}
+                            \]
+                            </small>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Redesign of the PB-FHR Central Reflector</h3>
+                        <ul>
+                        <img height="500" src="./images/PBFHR/CentralReflector_Simple_Cutout.svg">
+                        <img height="500" src="./images/PBFHR/CentralReflector_solid_detail.svg">
+                        <img height="500" src="./images/PBFHR/CentralReflector_explode_detail.svg">
+                        <img height="150" src="./images/PBFHR/CentralReflector_single_detail.svg">
+                        </ul>
+                    </section>
+                    <section>
                         <h3>Future Work: Lifetime Estimate</h3>
                         <div id="right">
                             <font size="5" align="left">
@@ -933,9 +832,74 @@
                             </font></p>
                         </div>
                     </section>
+                    <section>
+                        <h3>Key Takeaways from the Lifetime Estimate</h3>
+                        <div>
+                            <font size="6">
+                                <b>My work:</b> Created a novel tool to couple neutronics/strucutral mechanics</br>
+                                <b>Result:</b> Lifetime estimated, reflector redesigned, Kairos power startup </br>
+                            <b>Future Idea:</b> Perform lifetime evaluations on core components in emerging reactor designs based on coupled physics</br>
+                            <b>Data Science Application:</b> Use optimization techniques to converge on core component design that maximizes lifetime
+                            </font>
+                        </div>
+                        <footer align="left">
+                        <font size="2">
+                            <p>Munk, Madicken. An analysis of Radiation-Induced Stresses of a Graphite Central Reflector in a Pebble Bed Fluoride Salt-Cooled Reactor Core. Diss. University of California Berkeley, 2013.</p>
+                        </font></footer>
+                    </section>
                 </section>
                 <section>
                     <section>Backup Slides: The $\Omega$ Methods</section>
+                    <section>
+                        <small>
+                        <p>The forward neutron transport equation:</p>
+                        \[
+                        \begin{multline}
+                        \hat\Omega \cdot \nabla \psi
+                                (\vec {r} ,E,\:\hat\Omega)+\Sigma _{ t }
+                                (\vec{r},E)\psi (\vec { r } ,E,\:\hat\Omega) = \\
+                                \int _{ 4\pi  } \int _{ 0 }^{ \infty  } \Sigma _{ s }(E'\rightarrow E,
+                                \hat\Omega'\rightarrow\hat\Omega)\psi (\vec { r } ,E',\: \hat\Omega')dE'
+                                \:d\hat\Omega' + q_{e}(\vec { r } ,E, \:\hat\Omega).
+                        \end{multline}
+                        \]
+                        <p>The adjoint neutron transport equation:</p>
+                        \[
+                        \begin{multline}
+                        \hat\Omega \cdot \nabla \color{teal}{\psi^{\dagger}}
+                                (\vec {r} ,E,\:\hat\Omega)+\Sigma _{ t }
+                                (\vec{r},E)\color{teal}{\psi^{\dagger}}  (\vec { r } ,E,\:\hat\Omega)
+                               = \\
+                               \int _{ 4\pi  } \int _{ 0 }^{ \infty  } \Sigma _{ s }(\color{violet}{E\rightarrow E'},
+                               \color{purple}{\hat\Omega\rightarrow\hat\Omega'})\color{teal}{\psi^{\dagger}}  (\vec { r } ,E',\:
+                               \hat\Omega')dE' \:d\hat\Omega' + \color{teal}{q_{e}^\dagger}(\vec { r } ,E,
+                                \:\hat\Omega).
+                        \end{multline}
+                        \]
+                        <p>The adjoint solution can be used to make an importance map for a desired outcome.</p>
+                        <p>An exact adjoint solution can be used to obtain a zero variance Monte Carlo solution.</p>
+                        </small>
+                    </section>
+                    <section>
+                        <h3>Importance and the Adjoint</h3>
+                        <small>
+                            <p align="left">Notation:</p>
+                            $\langle ab \rangle = \int a(P)b(P) dP$
+                            <p align="left">Detector response</p>
+                            $
+                            \begin{align}
+                            R &= \langle \sigma_d \psi \rangle \\
+                              &= \langle q^{\dagger} \psi \rangle \\
+                              &= \langle q \psi^{\dagger} \rangle \\
+                              \end{align}
+                            $
+                            <p align="left">Point source</p>
+                            $q ( \vec{r}, E, \hat{\Omega}) = \delta(\vec{r}-\vec{r_0})\delta(\vec{E}-\vec{E_0})\delta(\vec{\hat{\Omega}}-\vec{\hat{\Omega}_0})$
+                            <font color="purple"><p align="left">Response = adjoint flux</p>
+                            $R = \psi^{\dagger} (r_0, E_0, \Omega_0)$
+                            </font>
+                        </small>
+                    </section>
                     <section>
                         <h3>The CADIS method</h3>
                         <div id="left">
@@ -960,6 +924,19 @@
                         </div>
                     </section>
                     <section>
+                        <img height="525" src="./images/omega/Hybrid_Codes.svg">
+                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid1.svg">
+                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid2.svg">
+                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid3.svg">
+                        <img class="fragment" style="position:absolute; left:2.5%" height="525" src="./images/omega/Hybrid4.svg">
+                        <div id="bottom" align="left">
+                        <font size="2">
+                             <p>MCNP, X. Monte Carlo Team, MCNP–A General Purpose Monte Carlo N-Particle Transport Code, Version 5. LA-UR-03-1987, Los Alamos National Laboratory, April 2003.</p>
+                             <p>Evans, Thomas M., et al. "Denovo: A new three-dimensional parallel discrete ordinates code in SCALE." Nuclear technology 171.2 (2010): 171-200.</p>
+                             <p>Mosher, Scott W., et al. "ADVANTG—an automated variance reduction parameter generator." ORNL/TM-2013/416, Oak Ridge National Laboratory (2013).</p>
+                        </font></div>
+                    </section>
+                    <section>
                         <h3>Anisotropy Metrics</h3>
                         <div id="left">
                             <font size=4>
@@ -978,6 +955,43 @@
                             M_6 &= \frac{\frac{\psi^{c}_{Max}}{\psi^{c}_{Min}}}{\frac{\psi^{\dagger}_{Max}}{\psi^{\dagger}_{Min}}}
                             \end{align}
                             </font>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Steel Beam in Concrete</h2>
+                        <div>
+                            <img height="500" src="./images/omega/prob1geom.png">
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Steel Beam in Concrete</h2>
+                        <div>
+                            <img height="500" src="./images/omega/RE_prob1.png">
+                        </div>
+                    </section>
+                    <section>
+                            <img height="200" src="./images/omega/Prob1_FOM.png">
+                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Above:</b> Figure of Merit results for CADIS and CADIS-$\Omega$ for various tally regions of interest</font></p>
+                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Below:</b> Timing results for CADIS and CADIS-$\Omega$</font></p>
+                            <img height="250" src="./images/omega/Prob1_time.png">
+                    </section>
+                    <section data-transition="none">
+                            <img height="200" src="./images/omega/Prob1_FOM_highlight.png">
+                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Above:</b> Figure of Merit results for CADIS and CADIS-$\Omega$ for various tally regions of interest</font></p>
+                            <p style="margin-top:0; margin-bottom:0;"><font size="3" align="center"><b>Below:</b> Timing results for CADIS and CADIS-$\Omega$</font></p>
+                            <img height="250" src="./images/omega/Prob1_time_highlight.png">
+                    </section>
+                    <section>
+                        <h3>Future Work</h3>
+                        <div id="right">
+                            <font size="5" align="left">
+                            <p><b>Idea: </b> Use anisotropy metrics to characterize beyond $\Omega$-methods, build out suite of novel analysis tools for nuclear engineering with PyNE+yt</p>
+                            <p><b>Deliverable: </b> Robust scheme to recommend method based on problem type, open-source package to calculate anisotropy metrics</p>
+                            <p><b>Data Science Influence: </b> Use methods from other domains (halo finding (astro)), cleaning and filtering methods </p>
+                            </font>
+                        </div>
+                        <div id="left">
+                            <img src="./images/omega/futurestats.png" height="275">
                         </div>
                     </section>
                     <section>
